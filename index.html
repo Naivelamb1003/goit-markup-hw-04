@@ -32,21 +32,20 @@
                 </li>
             </ul>
             <ul class="contact">
-                <li>
+                <li class="mail">
                     <a href="mailto:info@devstudio.com" class="us style-header">
-                        <svg class="nav-icon">
+                        <svg class="nav-icon" width="16px" height="11.2px">
                             <use href="./images/main/symbol-defs.svg#icon-envelope"> </use>
                         </svg>
-
-                        info@devstudio.com
+                        <span>info@devstudio.com</span>
                     </a>
                 </li>
-                <li>
+                <li class="mail">
                     <a href="tel:+380961111111" class="us style-header">
-                        <svg class="nav-icon">
+                        <svg class="nav-icon" width="10px" height="15px">
                             <use href="./images/main/symbol-defs.svg#icon-smartphone"> </use>
                         </svg>
-                        +38 096 111 11 11
+                        <span>+38 096 111 11 11</span>
                     </a>
                 </li>
             </ul>
@@ -72,7 +71,9 @@
                     <ul class="features-list">
                         <li class="item">
                             <div class="item-img">
-                                <img src="./images/main/Vector.svg" alt="антена" width="70" height="70">
+                                <svg class="features-img" width="70px" height="70px">
+                                    <use href="./images/main/symbol-defs.svg#icon-antenna-1"> </use>
+                                </svg>
                             </div>
                             <h3 class="title text-style"> Внимание к деталям </h3>
                             <p> Идейные соображения, а также начало повседневной работы по формированию
@@ -81,7 +82,9 @@
 
                         <li class="item">
                             <div class="item-img">
-                                <img src="./images/main/Vector1.svg" alt="время" width="70" height="70">
+                                <svg class="features-img" width="70px" height="70px">
+                                    <use href="./images/main/symbol-defs.svg#icon-clock-1"> </use>
+                                </svg>
                             </div>
                             <h3 class="title text-style"> Пунктуальность </h3>
                             <p> Задача организации, в особенности же рамки и место обучения кадров влечет
@@ -90,7 +93,9 @@
 
                         <li class="item">
                             <div class="item-img">
-                                <img src="./images/main/Vector2.svg" alt="ноутбук" width="70" height="70">
+                                <svg class="features-img" width="70px" height="70px">
+                                    <use href="./images/main/symbol-defs.svg#icon-diagram-1"> </use>
+                                </svg>
                             </div>
                             <h3 class="title text-style"> Планирование </h3>
                             <p> Равным образом консультация с широким активом в значительной степени
@@ -99,7 +104,9 @@
 
                         <li class="item">
                             <div class="item-img">
-                                <img src="./images/main/Vector3.svg" alt="астронавт" width="70" height="70">
+                                <svg class="features-img" width="70px" height="70px">
+                                    <use href="./images/main/symbol-defs.svg#icon-astronaut-1"> </use>
+                                </svg>
                             </div>
                             <h3 class="title text-style"> Современные технологии </h3>
                             <p> Значимость этих проблем настолько очевидна, что реализация плановых
@@ -137,20 +144,36 @@
                         <img src="./images/main/img2.jpg" alt="Николай Кучеренко" width="270">
                         <h3 class="title"> Николай Кучеренко </h3>
                         <p class="text"> Product Designer </p>
-                        <!-- <ul class="socials">
+                        <ul class="socials">
                             <li class="item">
-                                <a href="https://www.instagram.com/?hl=uk">Instagram </a>
+                                <a href class="link-socials" aria-label="Ссылка на Instagram">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://twitter.com/explore"> Twitter </a>
+                                <a href class="link-socials" aria-label="Ссылка на Twitter">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.facebook.com">Facebook </a>
+                                <a href class="link-socials" aria-label="Ссылка на Facebook">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com">linkedin </a>
+                                <a href class="link-socials" aria-label="Ссылка на Linkedin">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
                             </li>
-                        </ul> -->
+                        </ul>
                     </li>
                     <li class="item">
                         <img src="./images/main/img3.jpg" alt="Ольга Иванова" width="270">
@@ -158,16 +181,32 @@
                         <p class="text"> Frontend Developer </p>
                         <ul class="socials">
                             <li class="item">
-                                <a href="https://www.instagram.com/?hl=uk">Instagram </a>
+                                <a href class="link-socials" aria-label="Ссылка на Instagram">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://twitter.com/explore"> Twitter </a>
+                                <a href class="link-socials" aria-label="Ссылка на Twitter">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.facebook.com">Facebook </a>
+                                <a href class="link-socials" aria-label="Ссылка на Facebook">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com">linkedin </a>
+                                <a href class="link-socials" aria-label="Ссылка на Linkedin">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -177,16 +216,32 @@
                         <p class="text"> Marketing </p>
                         <ul class="socials">
                             <li class="item">
-                                <a href="https://www.instagram.com/?hl=uk">Instagram </a>
+                                <a href class="link-socials" aria-label="Ссылка на Instagram">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://twitter.com/explore"> Twitter </a>
+                                <a href class="link-socials" aria-label="Ссылка на Twitter">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.facebook.com">Facebook </a>
+                                <a href class="link-socials" aria-label="Ссылка на Facebook">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com">linkedin </a>
+                                <a href class="link-socials" aria-label="Ссылка на Linkedin">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -196,16 +251,32 @@
                         <p class="text"> UI Designer </p>
                         <ul class="socials">
                             <li class="item">
-                                <a href="https://www.instagram.com/?hl=uk">Instagram </a>
+                                <a href class="link-socials" aria-label="Ссылка на Instagram">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://twitter.com/explore"> Twitter </a>
+                                <a href class="link-socials" aria-label="Ссылка на Twitter">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.facebook.com">Facebook </a>
+                                <a href class="link-socials" aria-label="Ссылка на Facebook">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com">linkedin </a>
+                                <a href class="link-socials" aria-label="Ссылка на Linkedin">
+                                    <svg class="socials-icon" width="20px" height="20px">
+                                        <use href="./images/main/symbol-defs.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -218,26 +289,48 @@
                 <h2 class="section-title">Постоянные клиенты </h2>
                 <ul class="cust-list">
                     <li class="item">
-                        <img class="img" src="./images/main/logo1.svg" alt="сompany1" width="45">
+                        <svg class="regular-img">
+                            <use href="./images/main/symbol-defs.svg#icon-logo-1"> </use>
+                        </svg>
                     </li>
 
                     <li class="item">
-                        <img class="img" src="./images/main/logo2.svg" alt="сompany2" width="40">
+
+                        <svg class="regular-img">
+                            <use href="./images/main/symbol-defs.svg#icon-logo-2"> </use>
+                        </svg>
                     </li>
 
                     <li class="item">
-                        <img class="img" src="./images/main/logo3.svg" alt="сompany3" width="40">
+
+                        <svg class="regular-img">
+                            <use href="./images/main/symbol-defs.svg#icon-logo-3"> </use>
+                        </svg>
+
                     </li>
 
                     <li class="item">
-                        <img class="img" src="./images/main/logo4.svg" alt="сompany4" width="80">
-                    </li>
-                    <li class="item">
-                        <img class="img" src="./images/main/logo5.svg" alt="сompany5" width="60">
+
+                        <svg class="regular-img">
+                            <use href="./images/main/symbol-defs.svg#icon-logo-4"> </use>
+                        </svg>
+
                     </li>
 
                     <li class="item">
-                        <img src="./images/main/logo6.svg" alt="сompany6" width="90">
+
+                        <svg class="regular-img">
+                            <use href="./images/main/symbol-defs.svg#icon-logo-5"> </use>
+                        </svg>
+
+                    </li>
+
+                    <li class="item">
+
+                        <svg class="regular-img">
+                            <use href="./images/main/symbol-defs.svg#icon-logo-6"> </use>
+                        </svg>
+
                     </li>
                 </ul>
             </div>
@@ -264,23 +357,44 @@
                     <ul class="item">
 
                         <li class="footer-links" class="footer-links">
-                            <a href="https://www.instagram.com/?hl=uk"> Instagram </a>
+                            <a href class="link-socials" aria-label="Ссылка на Instagram">
+                                <svg class="socials-icon">
+                                    <use href="./images/main/symbol-defs.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-links" class="footer-links">
-                            <a href="https://twitter.com/explore"> Twitter </a>
+                            <a href class="link-socials" aria-label="Ссылка на Twitter">
+                                <svg class="socials-icon">
+                                    <use href="./images/main/symbol-defs.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-links">
-                            <a href="https://www.facebook.com"> Facebook </a>
+                            <a href class="link-socials" aria-label="Ссылка на Facebook">
+                                <svg class="socials-icon">
+                                    <use href="./images/main/symbol-defs.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-links">
-                            <a href="https://www.linkedin.com"> linkedin </a>
+                            <a href class="link-socials" aria-label="Ссылка на Linkedin">
+                                <svg class="socials-icon">
+                                    <use href="./images/main/symbol-defs.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
 
                 <div>
                     <p class="footer-text text-style">Подпишитесь на рассылку</p>
-                    <button class="button-footer">Подписаться</button>
+                    <button class="button-footer">Подписаться
+                        <svg class="tellegram-icon">
+                            <use href="./images/main/symbol-defs.svg#icon-icon-send"></use>
+                        </svg>
+
+                    </button>
                 </div>
             </div>
 
